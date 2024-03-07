@@ -1,0 +1,6 @@
+.player-label {
+    -fx-font-size: 30px; /* Set font size */
+    -fx-font-weight: bold; /* Set font weight to bold */
+    -fx-padding: 5px; /* Add padding */
+    -fx-text-fill: #333; /* Set text color */
+}

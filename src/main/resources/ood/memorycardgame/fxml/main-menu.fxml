@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ood.memorycardgame.MainMenuController">
+<center>
+    <VBox alignment="CENTER" spacing="20.0" BorderPane.alignment="CENTER">
+        <Label text="Select Board Size" />
+
+        <HBox alignment="CENTER" spacing="10.0">
+            <Label text="Grid Size:" />
+            <ComboBox fx:id="gridSizeComboBox" prefWidth="100" promptText="Select Size"/>
+        </HBox>
+
+        <HBox alignment="CENTER" spacing="10.0">
+            <Label text="Mode:" />
+            <ComboBox fx:id="modeComboBox" promptText="Select Mode" />
+        </HBox>
+
+        <HBox alignment="CENTER" spacing="10.0">
+            <Label text="Theme:" />
+            <ComboBox fx:id="themeComboBox" promptText="Select theme" />
+        </HBox>
+
+        <Label text="Player 1 Name:" />
+        <TextField fx:id="player1NameTextField" promptText="Enter Player 1 Name" />
+
+        <Label text="Player 2 Name:" />
+        <TextField fx:id="player2NameTextField" promptText="Enter Player 2 Name" />
+
+        <HBox alignment="CENTER" spacing="10.0">
+            <Label text="Difficulty:" fx:id="difficultyLabel" />
+            <ComboBox fx:id="difficultyComboBox" promptText="Select Difficulty" disable="true"/>
+        </HBox>
+
+        <Button fx:id="startBtn" onAction="#startGame" mnemonicParsing="false" text="Start" />
+        <Button fx:id="highScoresBtn" onAction="#showHighScores" mnemonicParsing="false" text="High Scores" />
+        <Button fx:id="exitBtn" onAction="#exitGame" mnemonicParsing="false" text="Exit" />
+    </VBox>
+</center>
+</BorderPane>

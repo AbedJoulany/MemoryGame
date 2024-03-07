@@ -1,0 +1,6 @@
+module:com.example.memorycardgameood
+ood.memorycardgame
+ood.memorycardgame.PlayerPack
+ood.memorycardgame.PlayStrategy
+ood.memorycardgame.Scoring
+ood.memorycardgame.ThemePack
