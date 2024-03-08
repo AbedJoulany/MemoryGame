@@ -38,3 +38,10 @@ Despite these setbacks, I persevered and made the best of the situation to ensur
 9. **Extensibility for Future Features:**
    - The game architecture allows for the addition of new features such as game modes.
    - Design patterns like the Strategy pattern and factories facilitate the seamless integration of new functionalities, ensuring the game remains engaging and dynamic.
+
+
+### UML
+![UML Diagram](src/main/resources/ood/memorycardgame/uml.png)
+
+
+
